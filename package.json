@@ -2,8 +2,10 @@
   "name": "vultrctl-bot",
   "version": "0.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "deploy": "wrangler deploy",
+    "register": "tsc && node --env-file=.env dist/register.js",
     "dev": "wrangler dev",
     "start": "wrangler dev",
     "test": "vitest",
