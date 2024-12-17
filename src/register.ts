@@ -1,8 +1,9 @@
-import { Command, Option, register } from 'discord-hono'
+import { Command, register } from 'discord-hono'
 
 const commands = [
-  new Command('hello', 'response world'),
-  new Command('help', 'response help').options(new Option('text', 'with text')),
+  new Command('status', 'get status of vps instance'),
+  new Command('up', 'start vps instance'),
+  new Command('down', 'stop vps instance'),
 ]
 
 register(
