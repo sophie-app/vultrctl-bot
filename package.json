@@ -18,6 +18,7 @@
     "@mst-mkt/js-config": "npm:@jsr/mst-mkt__js-config@^0.0.3",
     "@types/node": "^22.10.2",
     "discord-api-types": "^0.37.111",
+    "tsx": "^4.19.2",
     "typescript": "^5.5.2",
     "vitest": "2.1.8",
     "wrangler": "^3.60.3"
