@@ -23,6 +23,7 @@
     "wrangler": "^3.60.3"
   },
   "dependencies": {
+    "@vultr/vultr-node": "^2.8.0",
     "discord-hono": "^0.8.5"
   }
 }
