@@ -1,9 +1,9 @@
 import createOpenApiClient from 'openapi-fetch'
 import type { paths } from './api'
 
-export const createVultrClient = (apiKey: string) => {
+export const createVultrClient = (apiKey: string, baseUrl: string) => {
   return createOpenApiClient<paths>({
-    baseUrl: 'https://api.vultr.com/v2',
+    baseUrl,
     headers: {
       Authorization: `Bearer ${apiKey}`,
     },
