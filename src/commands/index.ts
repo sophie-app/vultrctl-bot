@@ -1,6 +1,7 @@
 import type { CommandContext } from 'discord-hono'
 import type { Env } from '..'
 import { statusCommand } from './status'
+import { upCommand } from './up'
 
 export type Command = {
   name: string
@@ -8,4 +9,4 @@ export type Command = {
   handler: (c: CommandContext<Env>) => Response | Promise<Response>
 }
 
-export const commands = [statusCommand]
+export const commands = [statusCommand, upCommand]
