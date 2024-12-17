@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      discord-hono:
+        specifier: ^0.8.5
+        version: 0.8.5
     devDependencies:
       '@biomejs/biome':
         specifier: ^1.9.4
@@ -20,6 +24,9 @@ importers:
       '@mst-mkt/js-config':
         specifier: npm:@jsr/mst-mkt__js-config@^0.0.3
         version: '@jsr/mst-mkt__js-config@0.0.3'
+      discord-api-types:
+        specifier: ^0.37.111
+        version: 0.37.111
       typescript:
         specifier: ^5.5.2
         version: 5.7.2
@@ -635,6 +642,12 @@ packages:
 
   devalue@4.3.3:
     resolution: {integrity: sha512-UH8EL6H2ifcY8TbD2QsxwCC/pr5xSwPvv85LrLXVihmHVC3T3YqTCIwnR5ak0yO1KYqlxrPVOA/JVZJYPy2ATg==}
+
+  discord-api-types@0.37.111:
+    resolution: {integrity: sha512-22O4/mjfcLaQ8bbJorGpzFThnjhd8/exQxFscP3fnyJPo9Fk9O5GkWDIremYbvuw4YiwMfssWFniIb/iAwRqTg==}
+
+  discord-hono@0.8.5:
+    resolution: {integrity: sha512-aMstay1vArcUm4VQBToT2Pu/cKnXIQnhpSVjB7ge4FrJfg4b3HPwtIdYDJpgUhfaRKF2bTkBXuJ/wL4JEIR+CQ==}
 
   es-module-lexer@1.5.4:
     resolution: {integrity: sha512-MVNK56NiMrOwitFB7cqDwq0CQutbw+0BvLshJSse0MUNU+y1FC3bUS/AQg7oUng+/wKrrki7JfmwtVHkVfPLlw==}
@@ -1360,6 +1373,10 @@ snapshots:
   defu@6.1.4: {}
 
   devalue@4.3.3: {}
+
+  discord-api-types@0.37.111: {}
+
+  discord-hono@0.8.5: {}
 
   es-module-lexer@1.5.4: {}
 
