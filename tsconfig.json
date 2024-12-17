@@ -12,7 +12,7 @@
     "allowJs": true,
     "checkJs": false,
 
-    "outDir": "./dist",
+    "noEmit": true,
 
     "isolatedModules": true,
     "allowSyntheticDefaultImports": true,
